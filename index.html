@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hudson Alther - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .header, .contact {
+            text-align: center;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .project, .experience, .leadership {
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                margin: 20px;
+                font-size: 16px;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+            .section {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media print {
+            body {
+                background-color: white;
+                color: black;
+                font-size: 12pt;
+            }
+            a::after {
+                content: " (" attr(href) ")";
+                font-size: 10pt;
+                color: gray;
+            }
+            .contact, a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Hudson Alther</h1>
+    <div class="contact">
+        Charlottesville, VA 22911 · (434) 249-8701 · Dvu7jh@virginia.edu<br>
+        <a href="https://github.com/HudsonAlther">Github Overview</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Summary</h2>
+    <p>Data-driven Computer Science student with a passion for machine learning, data analytics, and applied research. Hands-on experience building deep-learning models, interactive data apps, and full-stack Java projects. Adept with Python, Java, and modern Machine Learning frameworks; seeking a Summer 2025 Data Science / Machine Learning internship at Elder Research to turn complex data into actionable insight.</p>
+</div>
+
+<div class="section">
+    <h2>Education</h2>
+    <p><strong>University of Virginia, Charlottesville, VA</strong> — B.S. Computer Science, Minor: Data Science<br> <br> <strong>Expected Graduation:</strong> May 2026</p>
+    <p><strong>Relevant Coursework:</strong> Data Structures & Algorithms, Statistics, Theory of Computation, Machine Learning, Cybersecurity Fundamentals, Communicating With Data</p>
+</div>
+
+<div class="section">
+    <h2>Technical Skills</h2>
+    <p><strong>Languages:</strong> Python, Java, C, C#, SQL, R, HTML<br>
+    <strong>Machine Learning / Data:</strong> TensorFlow, Keras, PyTorch, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Shiny, Tableau<br>
+    <strong>Tools:</strong> Git & GitHub, Jupyter Notebook, Google Colab (A100 GPU), Unix, VS Code, IntelliJ<br>
+    <strong>Cybersecurity:</strong> Nmap, Wireshark, Snort, Metasploit (basic), GDB<br>
+    <strong>Game Development:</strong> Unreal Engine 5 (Blueprints & C++), Unity 3D</p>
+</div>
+
+<div class="section">
+    <h2>Projects</h2>
+    <div class="project">
+        <strong>Card Recognizer</strong> – CNN-Based Playing Card Classifier<br>
+        <ul>
+            <li>Built transfer-learning model (VGG16 base) with >90% validation accuracy on 14 card classes.</li>
+            <li>Implemented 5-fold CV, confusion-matrix heatmaps, and feature-map visualizations.</li>
+            <li><a href="https://github.com/HudsonAlther/Card_Recognizer">GitHub</a></li>
+        </ul>
+    </div>
+    <div class="project">
+        <strong>Handwriting Recognition on MNIST/EMNIST</strong><br>
+        <ul>
+            <li>Trained CNNs to classify handwritten characters; achieved 95%+ accuracy.</li>
+            <li>Presented findings as part of a 5-person team with a 20-minute oral presentation.</li>
+            <li><a href="https://github.com/HudsonAlther/DS3001Final">GitHub</a></li>
+        </ul>
+    </div>
+    <div class="project">
+        <strong>Global Economy Indicators Shiny App</strong><br>
+        <ul>
+            <li>Interactive dashboard to visualize GDP, GNI, population trends (1970–2021).</li>
+            <li>Deployed on shinyapps.io with country filters and tooltips.</li>
+            <li><a href="https://timboandson.shinyapps.io/question2_app/">ShinyApp</a></li>
+        </ul>
+    </div>
+    <div class="project">
+        <strong>Course Reviews CRUD Application</strong><br>
+        <ul>
+            <li>Secure login, review editing with timestamp, and rating averaging using JavaFX/SQLite.</li>
+            <li><a href="https://github.com/HudsonAlther/CRUD_App">GitHub</a></li>
+        </ul>
+    </div>
+    <div class="project">
+        <strong>Knight Combat System Prototype</strong><br>
+        <ul>
+            <li>Created parrying and stamina mechanics in Unreal Engine 5 with animations and C++.</li>
+        </ul>
+    </div>
+    <div class="project">
+        <strong>Cybersecurity & CTF Scripts</strong><br>
+        <ul>
+            <li>Automated Nmap scanning and pcap analysis, created and ran SQL injection and buffer-overflow scripts.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Experience</h2>
+    <div class="experience">
+        <strong>Dive Connections – PADI Divemaster & Regulator Mechanic</strong>, Charlottesville, VA (2021–Present)<br>
+        <ul>
+            <li>Advised on dive gear; average $7k weekly sales.</li>
+            <li>Serviced scuba regulators to manufacturer specification</li>
+            <li>Led and organized group dives in accordance with safety standards.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Leadership</h2>
+    <div class="leadership">
+        <strong>President, UVA Scuba Club</strong> (2025–Present)<br>
+        <ul>
+            <li>Organize dive trips and training with Dive Connections.</li>
+        </ul>
+    </div>
+    <div class="leadership">
+        <strong>WyldLife Leader, YoungLife</strong> (2020–Present)<br>
+        <ul>
+            <li>Coordinate youth events and support peer-led activities, working within a team of seven members.</li>
+        </ul>
+    </div>
+    <p><strong>Member of:</strong> SIGAI, UVA Rugby Team, Machine Learning Reading Group</p>
+</div>
+
+</body>
+</html>
